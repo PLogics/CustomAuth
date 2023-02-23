@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Styles -->
+    <link href="/css/app.c11q    ss" rel="stylesheet">
+</head>
+
+<body>
+
+    <div>
+        @include('flash-message')
+
+        @yield('content')
+    </div>
+
+    <!-- Scripts -->
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
